@@ -1,1 +1,1 @@
-chmod +x .husky/pre-commit
+pnpm lint
