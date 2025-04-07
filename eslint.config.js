@@ -43,7 +43,7 @@ module.exports = tseslint.config(
       "@angular-eslint/no-output-on-prefix": "off",
       "@typescript-eslint/ban-types": "off",
       "@typescript-eslint/no-inferrable-types": "off",
-      "no-console": ["warn", { allow: ["warn", "error"] }],
+      "no-console": ["error", { allow: ["warn", "error"] }],
     },
   },
   {

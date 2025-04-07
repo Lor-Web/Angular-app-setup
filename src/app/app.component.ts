@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, type OnInit } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
 
 @Component({
@@ -7,6 +7,10 @@ import { RouterOutlet } from "@angular/router";
   templateUrl: "./app.component.html",
   styleUrl: "./app.component.scss",
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = "frontend-angular";
+
+  ngOnInit(): void {
+    console.log("test");
+  }
 }
